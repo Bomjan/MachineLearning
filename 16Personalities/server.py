@@ -35,3 +35,5 @@ def predict(input_data: InputData):
     mbti = encoder.categories_[0][idx]
     return {"personality": mbti}
 
+# How to run? 
+# uvicorn server:app --reload --port 8000 
