@@ -1,7 +1,8 @@
 let questions = [];
 let currentPage = 0;
 const pageSize = 5;
-const ip_addr = "10.9.84.180";
+const ip_addr = "10.9.88.34";
+
 async function loadQuestions() {
   const res = await fetch(`http://${ip_addr}:8000/columns`);
   const data = await res.json();
