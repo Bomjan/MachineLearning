@@ -34,3 +34,4 @@ def predict(input_data: InputData):
     idx = result[0].argmax()
     mbti = encoder.categories_[0][idx]
     return {"personality": mbti}
+
